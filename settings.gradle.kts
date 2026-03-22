@@ -1,8 +1,4 @@
 @file:Suppress("UnstableApiUsage")
-
-include(":shared")
-
-
 pluginManagement {
     includeBuild("build-logic")
     repositories {
@@ -28,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ModernAndroidTemplate"
 include(":app")
+include(":shared")
